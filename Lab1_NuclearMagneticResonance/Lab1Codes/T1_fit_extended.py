@@ -137,7 +137,7 @@ def inverse(x,*p) :
 ## Choose function, data to fit, and intial guesses:
 func      = T1exponential
 data_file = "T1Data.txt"
-sampleTitle = "T1 Measure Sample 4B"
+sampleTitle = "T1 Sample 1A Sep 27"
 # Define axis labels for plot
 x_label, y_label   = "x = (time ms)", "y = (Voltage mV)"
 p_guess   = (1000, 1)     # Guess for Gaussian fit to gauss_ODR.tx
