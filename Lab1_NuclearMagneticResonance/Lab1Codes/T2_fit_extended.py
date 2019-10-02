@@ -142,9 +142,9 @@ def inverse(x,*p) :
 ## Choose function, data to fit, and intial guesses:
 func      = T2exponential
 data_file = "T2Data.txt"
-sampleTitle = "T2 Measure Sample 1A Sep 27"
+sampleTitle = "T2 Sample 1B Sep 24"
 x_label, y_label   = "x = (time ms)", "y = (Voltage mV)"
-p_guess   = (1100, 1)     # Guess for Gaussian fit to gauss_ODR.tx
+p_guess   = (1100, 1)     # Guess for Gaussian fit to gauss_ODR.tx-989
 #################################################################
 #### Optional User Definitions
 #################################################################
